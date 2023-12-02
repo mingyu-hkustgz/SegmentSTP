@@ -1,0 +1,8 @@
+cmake-build-debug
+DATA
+result
+.idea
+*.bin
+*.log
+*.index
+
