@@ -1,14 +1,24 @@
-# code for NC index
+# Code for NC index
 
-### dependency:
+### Dependency:
 * boost
 * openmp
 * CMake
 
-### test script
+### File
+The main code of NC-index is written in ```src/GraphRange/Graph_range_decomposition.cpp```
 
-* build index ```test_index.sh```
-* test search ```test_search.sh```
-* get runtime size ```test_index_size.sh```
+### Test Script
+build index
+
+``` bash test_index.sh```
+
+test search 
+
+```bash test_search.sh```
+
+get runtime size 
+
+``` bash test_index_size.sh```
 
 please follow the longopts to set the parameter
